@@ -1,0 +1,148 @@
+/*Universal selector and remove all the margin and padding*/
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: "Roboto",sans-serif;
+}
+
+header {
+    background-color: #100733;
+    padding: 30px;
+    text-align: center;
+}
+header h1 {
+    color: #fff;
+    font-size: 40px;
+}
+
+nav {
+    padding: 20px;
+}
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+nav ul li {
+    display:inline;
+}
+nav li a {
+    text-decoration: none;
+    margin: 0px 20px;
+    color: #100733;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+nav li a:hover {
+    color:#888;
+}
+
+.home {
+    background-image: url("../images/img_1.PNG");
+    padding: 50px;
+    background-position: center;
+    background-size: cover;
+}
+.home__content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+    border-radius: 12px;
+}
+.home__content  h4{
+    font-weight: 300;
+    margin-bottom: 38px;
+    font-size: 20px;
+}
+.home__content  h2{
+    font-weight: 300;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.skills {
+    background-image: url("../images/img_2.png");
+    padding: 30px;
+    background-position: center;
+    background-size: cover;
+}
+.skills h3, 
+.aboutme h3, 
+.contact h3 {
+    color:#fff;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 38px;
+    text-transform: uppercase;
+}
+.skills__img,
+.aboutme__content {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    padding-top: 20px;
+    text-align:center;
+}
+ .skills__img img {
+    object-fit: contain;
+    width:100%;
+    max-width: 700px;
+ }
+.skills__content,
+.aboutme__content {
+    color: #fff;
+    padding-bottom: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 12px; /* Add this property to round the corners */
+}
+ 
+ .aboutme {
+    background-image: url("../images/img_3.PNG");
+    padding: 30px;
+    background-position: center;
+    background-size: cover;
+ }
+.aboutme__content p {
+    line-height: 25px;
+    margin: 10px;
+ }
+
+.contact {
+    background-image: url("../images/img_4.PNG");
+    padding: 30px;
+    background-position: center;
+    background-size: cover;
+ }
+.contact__form {
+    padding: 20px;
+    text-align: center;
+ }
+.contact__form input {
+    border: 1px solid #dfdfdd;
+    padding: 8px;
+    width: 50%;
+    border-radius: 3px;
+    font-size: 15px;
+    margin-bottom: 15px;
+ }
+.contact__form button{
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+ }
+.contact__form button:hover {
+    background-color: #494444; 
+    color: #888;  
+}
+
+ footer {
+    text-align: center;
+    background: #100733;
+    color:#fff;
+    padding: 20px;
+ }
+
+ 
+
+
